@@ -43,3 +43,21 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.blurry-bg-img {
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  border-radius: 15px;
+}
+
+.blurry-bg-img::before {
+  content: "";
+  background-image: url("./assets/blurry-bg.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  filter: blur(30px);
+  z-index: -1;
+}
