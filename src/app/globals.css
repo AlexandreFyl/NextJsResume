@@ -6,6 +6,11 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --primary-color: #bc94d0;
+  --analogous-color-1: #d094c6;
+  --analogous-color-2: #9e94d0;
+  --complement-color: #a8d094;
+  --bg-color: #373741;
 }
 
 @media (prefers-color-scheme: dark) {
