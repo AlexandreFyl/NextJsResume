@@ -1,9 +1,18 @@
+"use client";
+
 import React from "react";
+import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <section className="h-screen flex flex-col justify-center items-center">
-      <div className="h-5/6 w-5/6 flex flex-col justify-center items-center blurry-bg-img">
+    <header className="h-screen flex flex-col justify-center items-center">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.25 }}
+        transition={{ duration: 2 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true }}
+        className="h-5/6 w-5/6 flex flex-col justify-center items-center blurry-bg-img"
+      >
         <div>
           <p className="text-glow text-5xl md:text-7xl font-bold leading-tight text-center md:text-left">
             Hello there,
@@ -15,8 +24,8 @@ const Header = () => {
             Full-Stack Developer
           </h1>
         </div>
-      </div>
-    </section>
+      </motion.div>
+    </header>
   );
 };
 
