@@ -27,8 +27,8 @@ const WhoAmI = () => {
             <div className="w-1/2">
               <img
                 src="/assets/portrait_squared.jpg"
-                alt=""
-                className="rounded-full"
+                alt="photography of myself"
+                className="rounded-full border-l-2 border-[#bc94d0]"
               />
             </div>
           </motion.div>
