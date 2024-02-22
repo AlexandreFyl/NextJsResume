@@ -31,7 +31,7 @@ const Education = () => {
             </div>
             {/* Description */}
             <div className="p-3 italic text-xs md:text-base">
-              Learning some things
+              Big data & Machine learning
             </div>
             {/* Date */}
             <div className="p-3 font-semibold text-sm md:text-base">
@@ -77,7 +77,7 @@ const Education = () => {
             </div>
             {/* Description */}
             <div className="p-3 italic text-xs md:text-base">
-              Learning some things
+              Distributed multi-layer applications
             </div>
             {/* Date */}
             <div className="p-3 font-semibold text-sm md:text-base">
@@ -103,7 +103,7 @@ const Education = () => {
             </div>
             {/* Description */}
             <div className="p-3 italic text-xs md:text-base">
-              Learning some things
+              OOP concept and its frameworks
             </div>
             {/* Date */}
             <div className="p-3 font-semibold text-sm md:text-base">
@@ -149,7 +149,7 @@ const Education = () => {
             </div>
             {/* Description */}
             <div className="p-3 italic text-xs md:text-base">
-              Learning some things
+              Digitalization of companies.
             </div>
             {/* Date */}
             <div className="p-3 font-semibold text-sm md:text-base">
@@ -175,7 +175,7 @@ const Education = () => {
             </div>
             {/* Description */}
             <div className="p-3 italic text-xs md:text-base">
-              Learning some things
+              European section
             </div>
             {/* Date */}
             <div className="p-3 font-semibold text-sm md:text-base">
