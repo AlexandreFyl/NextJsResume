@@ -16,7 +16,7 @@ const Education = () => {
         Education
       </motion.h2>
       {/* List container */}
-      <div className="w-1/2 py-24 ">
+      <div className="w-5/6 md:w-1/2 py-24 ">
         {/* ========================================== */}
         {/* ================= ITEM 1 ================= */}
         {/* ========================================== */}
@@ -26,17 +26,19 @@ const Education = () => {
           {/* Left */}
           <div className="w-1/3">
             {/* Degree */}
-            <div className="glassmorphism p-3 text-2xl font-bold">
+            <div className="glassmorphism p-3 text-sm md:text-2xl font-bold">
               Master's degree Artificial Intelligence
             </div>
             {/* Description */}
-            <div className="p-3 italic">Learning some things</div>
+            <div className="p-3 italic text-xs md:text-base">
+              Learning some things
+            </div>
             {/* Date */}
-            <div className="p-3 font-semibold">
+            <div className="p-3 font-semibold text-sm md:text-base">
               <span className="text-gradient">2023 - 2025</span>
             </div>
             {/* School */}
-            <div className="glassmorphism font-semibold p-2 w-fit">
+            <div className="glassmorphism font-semibold p-2 w-fit text-xs md:text-base">
               Hexagone School
             </div>
           </div>
@@ -70,17 +72,19 @@ const Education = () => {
           {/* Right */}
           <div className="w-1/3 ">
             {/* Degree */}
-            <div className="glassmorphism p-3 text-2xl font-bold">
+            <div className="glassmorphism p-3 text-sm md:text-2xl font-bold">
               Professional qualification in application design and development
             </div>
             {/* Description */}
-            <div className="p-3 italic">Learning some things</div>
+            <div className="p-3 italic text-xs md:text-base">
+              Learning some things
+            </div>
             {/* Date */}
-            <div className="p-3 font-semibold">
+            <div className="p-3 font-semibold text-sm md:text-base">
               <span className="text-gradient">2021</span>
             </div>
             {/* School */}
-            <div className="glassmorphism font-semibold p-2 w-fit">
+            <div className="glassmorphism font-semibold p-2 w-fit text-xs md:text-base">
               Human Booster
             </div>
           </div>
@@ -94,17 +98,19 @@ const Education = () => {
           {/* Left */}
           <div className="w-1/3">
             {/* Degree */}
-            <div className="glassmorphism p-3 text-2xl font-bold">
+            <div className="glassmorphism p-3 text-sm md:text-2xl font-bold">
               POEC back-end developer
             </div>
             {/* Description */}
-            <div className="p-3 italic">Learning some things</div>
+            <div className="p-3 italic text-xs md:text-base">
+              Learning some things
+            </div>
             {/* Date */}
-            <div className="p-3 font-semibold">
+            <div className="p-3 font-semibold text-sm md:text-base">
               <span className="text-gradient">2019</span>
             </div>
             {/* School */}
-            <div className="glassmorphism font-semibold p-2 w-fit">
+            <div className="glassmorphism font-semibold p-2 w-fit text-xs md:text-base">
               Human Booster
             </div>
           </div>
@@ -138,17 +144,19 @@ const Education = () => {
           {/* Right */}
           <div className="w-1/3 ">
             {/* Degree */}
-            <div className="glassmorphism p-3 text-2xl font-bold">
+            <div className="glassmorphism p-3 text-sm md:text-2xl font-bold">
               Digital referent
             </div>
             {/* Description */}
-            <div className="p-3 italic">Learning some things</div>
+            <div className="p-3 italic text-xs md:text-base">
+              Learning some things
+            </div>
             {/* Date */}
-            <div className="p-3 font-semibold">
+            <div className="p-3 font-semibold text-sm md:text-base">
               <span className="text-gradient">2018</span>
             </div>
             {/* School */}
-            <div className="glassmorphism font-semibold p-2 w-fit">
+            <div className="glassmorphism font-semibold p-2 w-fit text-xs md:text-base">
               Human Booster
             </div>
           </div>
@@ -162,17 +170,19 @@ const Education = () => {
           {/* Left */}
           <div className="w-1/3">
             {/* Degree */}
-            <div className="glassmorphism p-3 text-2xl font-bold">
+            <div className="glassmorphism p-3 text-sm md:text-2xl font-bold">
               Baccalauréat Engineering Sciences
             </div>
             {/* Description */}
-            <div className="p-3 italic">Learning some things</div>
+            <div className="p-3 italic text-xs md:text-base">
+              Learning some things
+            </div>
             {/* Date */}
-            <div className="p-3 font-semibold">
+            <div className="p-3 font-semibold text-sm md:text-base">
               <span className="text-gradient">2016</span>
             </div>
             {/* School */}
-            <div className="glassmorphism font-semibold p-2 w-fit">
+            <div className="glassmorphism font-semibold p-2 w-fit text-xs md:text-base">
               Lafayette School
             </div>
           </div>
