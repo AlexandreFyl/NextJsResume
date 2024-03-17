@@ -1,6 +1,7 @@
 import Education from "./components/Education";
 import Header from "./components/Header";
 import WhoAmI from "./components/WhoAmI";
+import Work from "./components/Work";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <WhoAmI />
       <Education />
+      <Work />
     </main>
   );
 }
