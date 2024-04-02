@@ -11,7 +11,7 @@ const WhoAmI = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           transition={{ duration: 2 }}
           whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, amount: "all" }}
           className="text-glow text-5xl md:text-7xl font-bold leading-tight text-center"
         >
           Who am i ?

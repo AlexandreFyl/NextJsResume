@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 
 const Education = () => {
   return (
-    <section className="flex flex-col justify-center items-center">
+    <section className="flex flex-col justify-center items-center mb-24">
       <motion.h2
         initial={{ opacity: 0, scale: 0.5 }}
         transition={{ duration: 2 }}
         whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: true }}
+        viewport={{ once: true, amount: "all" }}
         className="text-glow text-5xl md:text-7xl font-bold leading-tight text-center pt-20"
       >
         Education
